@@ -1,0 +1,144 @@
+; This is the Calva evaluation results output window.
+; Leave it open, please. Because quirks.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Aborting connect, error determining connect sequence.
+nil
+clj::mongodb.insertion=>
+nil
+clj::mongodb.insertion=>
+; Execution error (ArityException) at mongodb.insertion/eval41213 (form-init5798270935042397871.clj:15).
+; Wrong number of args (1) passed to: monger.collection/insert-and-return
+clj::mongodb.insertion=>
+; Syntax error compiling at (src/mongodb/insertion.clj:15:3).
+; Unable to resolve symbol: db in this context
+clj::mongodb.insertion=>
+#object[com.mongodb.WriteResult 0x2b51feb8 "WriteResult{n=0, updateOfExisting=false, upsertedId=null}"]
+clj::mongodb.insertion=>
+#object[com.mongodb.WriteResult 0x20fedbae "WriteResult{n=0, updateOfExisting=false, upsertedId=null}"]
+clj::mongodb.insertion=>
+nil
+clj::mongodb.insertion=>
+#'mongodb.insertion/conn
+clj::mongodb.insertion=>
+#'mongodb.insertion/db-name
+clj::mongodb.insertion=>
+#'mongodb.insertion/db
+clj::mongodb.insertion=>
+#'mongodb.insertion/coll-name
+clj::mongodb.insertion=>
+{:_id #object[org.bson.types.ObjectId 0x1d40123 "5f3ff9d5799d900ab9cde969"], :name "Jhonney", :msg "success!"}
+clj::mongodb.insertion=>
+{:_id #object[org.bson.types.ObjectId 0x78eca866 "5f3ff9da799d900ab9cde96a"], :name "Jhonney", :msg "success!"}
+clj::mongodb.insertion=>
+#object[com.mongodb.WriteResult 0x3240dd22 "WriteResult{n=0, updateOfExisting=false, upsertedId=null}"]
+clj::mongodb.insertion=>
+#object[com.mongodb.WriteResult 0x6581debb "WriteResult{n=0, updateOfExisting=false, upsertedId=null}"]
+clj::mongodb.insertion=>
+nil
+clj::mongodb.insertion=>
+; Syntax error compiling at (src/mongodb/connection.clj:21:12).
+; No such namespace: mcr
+clj::mongodb.insertion=>
+; Syntax error compiling at (src/mongodb/connection.clj:12:25).
+; No such namespace: mg
+clj::mongodb.insertion=>
+; Syntax error (IllegalArgumentException) compiling new at (src/mongodb/insertion.clj:51:1).
+; Unable to resolve classname: ObjectId
+clj::mongodb.insertion=>
+; Syntax error (IllegalArgumentException) compiling new at (src/mongodb/insertion.clj:51:1).
+; Unable to resolve classname: ObjectId
+clj::mongodb.insertion=>
+; Syntax error (IllegalArgumentException) compiling new at (src/mongodb/insertion.clj:51:1).
+; Unable to resolve classname: ObjectId
+clj::mongodb.insertion=>
+; Syntax error (IllegalArgumentException) compiling new at (src/mongodb/insertion.clj:52:8).
+; Unable to resolve classname: ObjectId
+clj::mongodb.insertion=>
+; Syntax error compiling at (src/mongodb/insertion.clj:35:1).
+; No such namespace: mc
+clj::mongodb.insertion=>
+; Syntax error compiling at (src/mongodb/insertion.clj:7:11).
+; No such namespace: mg
+clj::mongodb.insertion=>
+nil
+clj::mongodb.insertion=>
+#'mongodb.insertion/conn
+clj::mongodb.insertion=>
+#'mongodb.insertion/a
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x35226749 "5f40006b799d900ab9cde96f"]
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0xff81aa5 "5f4000c1799d900ab9cde970"]
+clj::mongodb.insertion=>
+nil
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x2d875267 "5f40014a799d900ab9cde972"]
+clj::mongodb.insertion=>
+#'mongodb.insertion/a
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x487d0671 "5f400169799d900ab9cde973"]
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x487d0671 "5f400169799d900ab9cde973"]
+clj::mongodb.insertion=>
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn (interruptible_eval.clj:91).
+; Expecting var, but ObjectId is mapped to class org.bson.types.ObjectId
+clj::mongodb.insertion=>
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn (interruptible_eval.clj:91).
+; Expecting var, but ObjectId is mapped to class org.bson.types.ObjectId
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x2941f16f "4fea999c0364d8e880c05157"]
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x3d0fb4e1 "4fea999c0364d8e880c05157"]
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x2a6d02c9 "5f4001d3799d900ab9cde974"]
+clj::mongodb.insertion=>
+#object[org.bson.types.ObjectId 0x132b6e99 "5f4001d4799d900ab9cde975"]
+clj::mongodb.insertion=>
+; Execution error (IllegalArgumentException) at org.bson.types.ObjectId/parseHexString (ObjectId.java:550).
+; invalid hexadecimal representation of an ObjectId: [4fea]
+clj::mongodb.insertion=>
+123
+clj::mongodb.insertion=>
+; Execution error (IllegalArgumentException) at org.bson.types.ObjectId/parseHexString (ObjectId.java:550).
+; invalid hexadecimal representation of an ObjectId: [123]
+clj::mongodb.insertion=>
+; Execution error (IllegalArgumentException) at org.bson.types.ObjectId/parseHexString (ObjectId.java:550).
+; invalid hexadecimal representation of an ObjectId: [123]
+clj::mongodb.insertion=>
+; Execution error (IllegalArgumentException) at org.bson.types.ObjectId/parseHexString (ObjectId.java:550).
+; invalid hexadecimal representation of an ObjectId: [123]
+clj::mongodb.insertion=>
+nil
+clj::mongodb.document-ids=>
+nil
+clj::mongodb.document-ids=>
+#'mongodb.document-ids/a
+clj::mongodb.document-ids=>
+#'mongodb.document-ids/a
+clj::mongodb.document-ids=>
+#'mongodb.document-ids/b
+clj::mongodb.document-ids=>
+#object[org.bson.types.ObjectId 0x33290bfd "5f40063b799d900ab9cde978"]
+clj::mongodb.document-ids=>
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn (interruptible_eval.clj:91).
+; Expecting var, but ObjectId is mapped to class org.bson.types.ObjectId
+clj::mongodb.document-ids=>
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn (interruptible_eval.clj:91).
+; Expecting var, but ObjectId is mapped to class org.bson.types.ObjectId
+clj::mongodb.document-ids=>
+#object[org.bson.types.ObjectId 0x2250f709 "5f400680799d900ab9cde979"]
+clj::mongodb.document-ids=>
+nil
+clj::mongodb.document-ids=>
+; Execution error (ClassCastException) at monger.collection/insert (collection.clj:83).
+; class com.mongodb.MongoClient cannot be cast to class clojure.lang.Named (com.mongodb.MongoClient and clojure.lang.Named are in unnamed module of loader 'app')
+clj::mongodb.document-ids=>
+#object[com.mongodb.WriteResult 0x497e765d "WriteResult{n=0, updateOfExisting=false, upsertedId=null}"]
+clj::mongodb.document-ids=>
+; Syntax error compiling at (src/mongodb/connection.clj:12:25).
+; No such namespace: mg
+clj::mongodb.document-ids=>
